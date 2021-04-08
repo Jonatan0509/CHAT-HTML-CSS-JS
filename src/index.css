@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page {
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 7%;
+    color: #ffffff;
+    border: 3px solid #b3b3b3;
+    background-color: #172127;
+}
+
+header {
+    border: 3px solid #b3b3b3;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    padding: 10px 10px 10px;
+    font-family: Arial;
+}
+
+.chatView {
+    margin: 8px 8px 0px 8px;
+    padding: 10px 2px 150px 2px;
+    max-height: 300px;
+    overflow: auto;
+    font: Arial;
+    border: 2px solid #9c8989;
+    background-color: #00af9c; 
+}
+
+.form-camp {
+    margin-bottom: 10px;
+    margin: 9px;
+    text-align: left;
+    display: block;
+}
+
+.user {
+   margin-left: 1px ;
+   margin-bottom: 0px;
+   display: block;
+}
+
+#response {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #172127; 
+    border-radius: 4px;
+    padding: 3px 4px;
+    color: black;
+}
+
+.response {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #172127; 
+    border-radius: 4px;
+    padding: 3px 4px;
+    color: black;
+}
+
+#page .form-campYou {
+     text-align: right;
+     margin-right: 10px;
+}
+#answer {
+    display: block;
+    font-size: 16px;
+    padding: 8px 30px 8px 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#page form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 11px;
+    margin-left: 110px;
+    background-color: #ffffff;
+    border: 1px solid #b3b3b3; 
+    border-radius: 8px;
+}
+
+#page form input {
+    flex: 1;
+    margin-right: 7px;
+}
+
+button {
+    margin: 10px 110px 10px;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #1eaf01;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+button:hover {
+    background-color: #5fec5a;
+    transition: background 400ms;
+    outline:none;
+  }

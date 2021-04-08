@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Atendimento on-line</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div id="page">
+
+        <header>
+          <h3>Atendimento On-line</h3>
+        </header>
+   
+          <div class="chatView" id="chatView">
+              <div class="form-camp">
+                <label class="user" for="conversa">Atendente</label>
+                <div type="text" id="response" name="conversa">Olá, tudo bem?</div>
+              </div>
+              <div class="form-camp">
+                <label class="user" for="conversa">Atendente</label>
+                <div type="text" id="response" name="conversa">Sua consulta está marcada pra dia 06/06/2021, ok?</div>
+              </div>
+              <div class="form-campYou">
+                <label class="user" for="conversa">Você</label>
+                <div type="text" id="response" name="conversa">ok!</div>
+              </div>
+          </div>
+              
+          <form id="formCamp">
+              <input type="text" class="answer" id="answer" placeholder="Digite sua mensagem..."></input>
+              <button type="submit" class="-bufootertton" id="buttonSend"> Adicionar </button>
+          </form>
+
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
